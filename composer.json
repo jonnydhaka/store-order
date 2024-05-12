@@ -1,0 +1,19 @@
+{
+    "name": "tanvir/wppool-store-order",
+    "description": "A  plugin for wppool",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "jonnydhaka",
+            "email": "tanvir_hasan_j@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WpPool\\Store\\Order\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
